@@ -10,7 +10,7 @@
 Команда для сборки: $bash linker.sh
 ### 3) Подготовьте две сборки с флагами -g и  -O3 и измерьте времена выполнения операций с N = 512, 1024..., 4096 (3 бала)
 
-
+(MacOSX)
 #### Дебаг:     
 $make EXECUTABLE=multiplier_g LDFLAGS=-g    
 Время работы:   
@@ -28,4 +28,20 @@ The time for multiple 2048X2048 matrix: 107016 ms
 The time for multiple 4096X4096 matrix: 921522 ms   
 
 
-### 4) Измерить времена выполнения программ в виртуальной машине, реальной ОС и (опционально) в докере (3 балла + 0.5 балла за докер)
+### 4) Измерить времена выполнения программ в виртуальной машине, реальной ОС и (опционально) в докере (3 балла + 0.5 балла за докер)   
+
+В виртуальной машине Ubuntu16 через гипервизор Parallels:
+
+#### Дебаг:
+The time for multiple 512X512 matrix: 4050 ms   
+The time for multiple 1024X1024 matrix: 63491 ms    
+The time for multiple 2048X2048 matrix: 1061996 ms    
+
+#### О3-оптимизация:    
+The time for multiple 512X512 matrix: 305 ms       
+The time for multiple 1024X1024 matrix: 5193 ms       
+The time for multiple 2048X2048 matrix: 152657 ms       
+The time for multiple 4096X4096 matrix: 1619701 ms    
+
+### Вывод:
+При больших размерах матриц, вычисления через hypervisor значительно медленнее
