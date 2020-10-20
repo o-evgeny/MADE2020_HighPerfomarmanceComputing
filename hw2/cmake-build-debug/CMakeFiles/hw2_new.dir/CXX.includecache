@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/workhard/Documents/github/HPC/hw2_new/main.cpp
+matrix.h
+/Users/workhard/Documents/github/HPC/hw2_new/matrix.h
+iostream
+-
+chrono
+-
+
+/Users/workhard/Documents/github/HPC/hw2_new/matrix.h
+stdio.h
+-
+iostream
+-
+

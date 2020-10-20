@@ -1,0 +1,10 @@
+O3 оптимизация:
+The time for multiple 512X512 matrix: 315 ms
+The time for multiple 1024X1024 matrix: 6793 ms
+The time for multiple 2048X2048 matrix: 107016 ms
+The time for multiple 4096X4096 matrix: 921522 ms
+
+Дебаг:
+The time for multiple 512X512 matrix: 4115 ms
+The time for multiple 1024X1024 matrix: 66275 ms
+The time for multiple 2048X2048 matrix: 1018655 ms
