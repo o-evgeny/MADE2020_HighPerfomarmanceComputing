@@ -14,18 +14,18 @@
 #### Дебаг:     
 $make EXECUTABLE=multiplier_g LDFLAGS=-g    
 Время работы:   
-The time for multiple 512X512 matrix: 4115 ms
-The time for multiple 1024X1024 matrix: 66275 ms
+The time for multiple 512X512 matrix: 4115 ms   
+The time for multiple 1024X1024 matrix: 66275 ms    
 The time for multiple 2048X2048 matrix: 1018655 ms
 
 
 #### 03-оптимизация:   
 $make EXECUTABLE=multiplier_O3 OPTIMIZATION=-O3   
 Время работы:   
-The time for multiple 512X512 matrix: 315 ms
-The time for multiple 1024X1024 matrix: 6793 ms
-The time for multiple 2048X2048 matrix: 107016 ms
-The time for multiple 4096X4096 matrix: 921522 ms
+The time for multiple 512X512 matrix: 315 ms    
+The time for multiple 1024X1024 matrix: 6793 ms   
+The time for multiple 2048X2048 matrix: 107016 ms   
+The time for multiple 4096X4096 matrix: 921522 ms   
 
 
 ### 4) Измерить времена выполнения программ в виртуальной машине, реальной ОС и (опционально) в докере (3 балла + 0.5 балла за докер)
