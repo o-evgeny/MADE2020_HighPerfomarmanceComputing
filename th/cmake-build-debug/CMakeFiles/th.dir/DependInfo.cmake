@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/workhard/Documents/github/HPC/HW2/main.cpp" "/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles/hw2_new.dir/main.cpp.o"
-  "/Users/workhard/Documents/github/HPC/HW2/matrix.cpp" "/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles/hw2_new.dir/matrix.cpp.o"
+  "/Users/workhard/Documents/github/HPC/th/main.cpp" "/Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles/th.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

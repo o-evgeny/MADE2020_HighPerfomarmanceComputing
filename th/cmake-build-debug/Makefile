@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/HW2
+CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/th
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/th/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles /Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw2_new
+# Target rules for targets named th
 
 # Build rule for target.
-hw2_new: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw2_new
-.PHONY : hw2_new
+th: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 th
+.PHONY : th
 
 # fast build rule for target.
-hw2_new/fast:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/build
-.PHONY : hw2_new/fast
+th/fast:
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/build
+.PHONY : th/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,35 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-matrix.o: matrix.cpp.o
-
-.PHONY : matrix.o
-
-# target to build an object file
-matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/matrix.cpp.o
-.PHONY : matrix.cpp.o
-
-matrix.i: matrix.cpp.i
-
-.PHONY : matrix.i
-
-# target to preprocess a source file
-matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/matrix.cpp.i
-.PHONY : matrix.cpp.i
-
-matrix.s: matrix.cpp.s
-
-.PHONY : matrix.s
-
-# target to generate assembly for a file
-matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/matrix.cpp.s
-.PHONY : matrix.cpp.s
 
 # Help Target
 help:
@@ -185,13 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hw2_new"
+	@echo "... th"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... matrix.o"
-	@echo "... matrix.i"
-	@echo "... matrix.s"
 .PHONY : help
 
 

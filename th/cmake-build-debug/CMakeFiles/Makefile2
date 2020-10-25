@@ -44,21 +44,21 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/HW2
+CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/th
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/th/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hw2_new.dir/all
+all: CMakeFiles/th.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hw2_new.dir/clean
+clean: CMakeFiles/th.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/hw2_new.dir
+# Target rules for target CMakeFiles/th.dir
 
 # All Build rule for target.
-CMakeFiles/hw2_new.dir/all:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/depend
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target hw2_new"
-.PHONY : CMakeFiles/hw2_new.dir/all
+CMakeFiles/th.dir/all:
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/depend
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target th"
+.PHONY : CMakeFiles/th.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hw2_new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hw2_new.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hw2_new.dir/rule
+CMakeFiles/th.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/th.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/workhard/Documents/github/HPC/th/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/th.dir/rule
 
 # Convenience name for target.
-hw2_new: CMakeFiles/hw2_new.dir/rule
+th: CMakeFiles/th.dir/rule
 
-.PHONY : hw2_new
+.PHONY : th
 
 # clean rule for target.
-CMakeFiles/hw2_new.dir/clean:
-	$(MAKE) -f CMakeFiles/hw2_new.dir/build.make CMakeFiles/hw2_new.dir/clean
-.PHONY : CMakeFiles/hw2_new.dir/clean
+CMakeFiles/th.dir/clean:
+	$(MAKE) -f CMakeFiles/th.dir/build.make CMakeFiles/th.dir/clean
+.PHONY : CMakeFiles/th.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

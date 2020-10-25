@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/hw2_new
+CMAKE_SOURCE_DIR = /Users/workhard/Documents/github/HPC/HW2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw2_new.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/hw2_new.dir/flags.make
 
 CMakeFiles/hw2_new.dir/main.cpp.o: CMakeFiles/hw2_new.dir/flags.make
 CMakeFiles/hw2_new.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw2_new.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2_new.dir/main.cpp.o -c /Users/workhard/Documents/github/HPC/hw2_new/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw2_new.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2_new.dir/main.cpp.o -c /Users/workhard/Documents/github/HPC/HW2/main.cpp
 
 CMakeFiles/hw2_new.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw2_new.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/workhard/Documents/github/HPC/hw2_new/main.cpp > CMakeFiles/hw2_new.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/workhard/Documents/github/HPC/HW2/main.cpp > CMakeFiles/hw2_new.dir/main.cpp.i
 
 CMakeFiles/hw2_new.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw2_new.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/workhard/Documents/github/HPC/hw2_new/main.cpp -o CMakeFiles/hw2_new.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/workhard/Documents/github/HPC/HW2/main.cpp -o CMakeFiles/hw2_new.dir/main.cpp.s
 
 CMakeFiles/hw2_new.dir/matrix.cpp.o: CMakeFiles/hw2_new.dir/flags.make
 CMakeFiles/hw2_new.dir/matrix.cpp.o: ../matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw2_new.dir/matrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2_new.dir/matrix.cpp.o -c /Users/workhard/Documents/github/HPC/hw2_new/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw2_new.dir/matrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2_new.dir/matrix.cpp.o -c /Users/workhard/Documents/github/HPC/HW2/matrix.cpp
 
 CMakeFiles/hw2_new.dir/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw2_new.dir/matrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/workhard/Documents/github/HPC/hw2_new/matrix.cpp > CMakeFiles/hw2_new.dir/matrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/workhard/Documents/github/HPC/HW2/matrix.cpp > CMakeFiles/hw2_new.dir/matrix.cpp.i
 
 CMakeFiles/hw2_new.dir/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw2_new.dir/matrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/workhard/Documents/github/HPC/hw2_new/matrix.cpp -o CMakeFiles/hw2_new.dir/matrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/workhard/Documents/github/HPC/HW2/matrix.cpp -o CMakeFiles/hw2_new.dir/matrix.cpp.s
 
 # Object files for target hw2_new
 hw2_new_OBJECTS = \
@@ -95,7 +95,7 @@ hw2_new: CMakeFiles/hw2_new.dir/main.cpp.o
 hw2_new: CMakeFiles/hw2_new.dir/matrix.cpp.o
 hw2_new: CMakeFiles/hw2_new.dir/build.make
 hw2_new: CMakeFiles/hw2_new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hw2_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hw2_new"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw2_new.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/hw2_new.dir/clean:
 .PHONY : CMakeFiles/hw2_new.dir/clean
 
 CMakeFiles/hw2_new.dir/depend:
-	cd /Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/workhard/Documents/github/HPC/hw2_new /Users/workhard/Documents/github/HPC/hw2_new /Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug /Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug /Users/workhard/Documents/github/HPC/hw2_new/cmake-build-debug/CMakeFiles/hw2_new.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/workhard/Documents/github/HPC/HW2 /Users/workhard/Documents/github/HPC/HW2 /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug /Users/workhard/Documents/github/HPC/HW2/cmake-build-debug/CMakeFiles/hw2_new.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw2_new.dir/depend
 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/workhard/Documents/github/HPC/th/main.cpp
+iostream
+/Users/workhard/Documents/github/HPC/th/iostream
+math.h
+/Users/workhard/Documents/github/HPC/th/math.h
+stdlib.h
+/Users/workhard/Documents/github/HPC/th/stdlib.h
+locale.h
+/Users/workhard/Documents/github/HPC/th/locale.h
+
