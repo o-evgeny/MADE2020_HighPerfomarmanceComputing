@@ -37,6 +37,6 @@ int main() {
   }
   std::cout<<sum_pixels;
   free(histogram);
-  //cv::waitKey();
+  cv::waitKey();
 
 }

@@ -9,7 +9,8 @@ __global__ void __apply(const uint8_t *pic, uint32_t *histogram) {
   int32_t n_row = gridDim.x;
   uint32_t pixel_current = i * n_col + j;
   __syncthreads();
-  histogram[pic[pixel_current]]+=1;
+  atomicAdd(histogram+pic[pixel_current],1);
+  //histogram[pic[pixel_current]]+=1;
   __syncthreads();
 }
 
